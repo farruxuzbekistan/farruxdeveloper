@@ -23,6 +23,8 @@ import {
   jobit,
   tripguide,
   threejs,
+  django,
+  python,
 } from "../assets";
 
 export const navLinks = [
@@ -105,12 +107,12 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "python",
+    icon: python,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "django",
+    icon: django,
   },
 ];
 
