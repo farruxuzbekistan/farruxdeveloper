@@ -28,9 +28,12 @@ import shopify from "./company/ftarget.png";
 import starbucks from "./company/faddline.png";
 import tesla from "./company/fhamkorbank.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import carrent from "./nbu2.jpg";
+import jobit from "./click.jpg";
+import tripguide from "./modera3.jpg";
+import ucell from "./ucell.jpg";
+import bos from "./bos.jpg";
+import weather from "./weather.jpg";
 
 export {
   logo,
@@ -63,4 +66,7 @@ export {
   tripguide,
   django,
   python,
+  ucell,
+  bos,
+  weather,
 };

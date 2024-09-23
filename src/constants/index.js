@@ -25,6 +25,9 @@ import {
   threejs,
   django,
   python,
+  ucell,
+  bos,
+  weather,
 } from "../assets";
 
 export const navLinks = [
@@ -218,16 +221,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "NBU",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Developed the frontend section of the NBU website, providing users with an intuitive and user-friendly interface to access financial services, enhancing overall customer experience and digital engagement.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "javascript",
         color: "green-text-gradient",
       },
       {
@@ -236,12 +239,12 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/farruxuzbekistan/nbu_bank",
   },
   {
-    name: "Job IT",
+    name: "Click",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Developed the frontend section of the Click website, delivering a seamless and responsive user interface to enhance the user experience for online payment and transaction services.",
     tags: [
       {
         name: "react",
@@ -252,24 +255,24 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwindcss",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/farruxuzbekistan/clickuz",
   },
   {
-    name: "Trip Guide",
+    name: "Modera Tower",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Developed the Modera Tour Multiple Page React app, creating a dynamic and interactive user experience for browsing and booking tours, with seamless navigation across multiple pages.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "javascript",
         color: "green-text-gradient",
       },
       {
@@ -278,7 +281,66 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/farruxuzbekistan/estate",
+  },
+  {
+    name: "Ucell",
+    description:
+      "Developed the frontend section of the Ucell website using React, providing a seamless and responsive user interface to enhance customer interaction and digital services.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ucell,
+    source_code_link: "https://github.com/farruxuzbekistan/ucell",
+  },
+  {
+    name: "Bosphorus",
+    description:
+      "Developed the Modera Tour Multiple Page React app, creating a dynamic and interactive user experience for browsing and booking tours, with seamless navigation across multiple pages.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "aiogram",
+        color: "green-text-gradient",
+      },
+    ],
+    image: bos,
+    source_code_link: "https://t.me/bosphorus_family_bot",
+  },
+  {
+    name: "Weather",
+    description:
+      "Developed the Modera Tour Multiple Page React app, creating a dynamic and interactive user experience for browsing and booking tours, with seamless navigation across multiple pages.",
+    tags: [
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "html",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: weather,
+    source_code_link: "https://github.com/farruxuzbekistan/weather",
   },
 ];
 
